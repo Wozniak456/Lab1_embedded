@@ -16,7 +16,7 @@ services:
 
 
   fake_agent:
-    container_name: agent
+    container_name: lab1_embedded
     build: ../
     depends_on:
       - mqtt
